@@ -1,3 +1,8 @@
+Feature: Reserva de Vagas
+  As um usuário do sistema de vagas do CIn
+  I quero reservar vagas
+  So eu possa estacionar o meu carro quando chegar ao CIn
+
 Scenario: Tentar reservar quando todas vagas estão ocupadas
 Given todas as vagas estão ocupadas
 When Eu tento reservar uma vaga
