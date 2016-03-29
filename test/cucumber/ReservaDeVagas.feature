@@ -3,6 +3,7 @@ Feature: Reserva de Vagas
   I quero reservar vagas
   So eu possa estacionar o meu carro quando chegar ao CIn
 
+Scenario: Tentar reservar quando todas vagas estão ocupadas
 Given todas as vagas estão ocupadas
 When Eu tento reservar uma vaga
 Then O sistema não faz nenhuma reserva
