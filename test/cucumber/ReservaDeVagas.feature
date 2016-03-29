@@ -1,3 +1,4 @@
+Scenario: Tentar reservar quando todas vagas estão ocupadas
 Given todas as vagas estão ocupadas
 When Eu tento reservar uma vaga
 Then O sistema não faz nenhuma reserva
