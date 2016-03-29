@@ -7,6 +7,7 @@ Given todas as vagas estão ocupadas
 When Eu tento reservar uma vaga
 Then O sistema não faz nenhuma reserva
 
+Scenario: Tentar reservar quando apenas uma vaga está livre
 Given tem apenas a vaga "11" livre
 When Eu tento reservar uma vaga
 Then O sistema reserva a vaga "11" para mim
