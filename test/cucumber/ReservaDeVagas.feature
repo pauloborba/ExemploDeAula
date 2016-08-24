@@ -7,6 +7,7 @@ Scenario: Tentar reservar quando todas vagas estão ocupadas
 Given todas as vagas estão ocupadas
 When Eu tento reservar uma vaga
 Then O sistema não faz nenhuma reserva
+And Não altera as reservas existentes
 
 Scenario: Tentar reservar quando apenas uma vaga está livre
 Given tem apenas a vaga "12" livre
